@@ -1,0 +1,26 @@
+title: "Биткойн-блог"          # Измените на своё название
+author: "Ваше Имя"
+email: your@email.com
+description: >- 
+  Личный блог в стиле оригинального документа Bitcoin: A Peer-to-Peer Electronic Cash System.
+baseurl: ""                     # Для корневого домена оставляем пустым
+url: "https://username.github.io" # Замените username на ваш ник GitHub
+github_username:  username      # Ваш ник на GitHub
+
+# Настройки сборки
+markdown: kramdown
+kramdown:
+  input: GFM                    # Поддержка GitHub Flavored Markdown
+  syntax_highlighter: rouge     # Подсветка кода (понадобится позже)
+
+# Исключаем лишние файлы из сборки
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+
+# Плагины (для GitHub Pages они уже встроены)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

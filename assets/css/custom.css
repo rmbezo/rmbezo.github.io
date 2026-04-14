@@ -1,0 +1,64 @@
+/* Тонкая настройка для максимального сходства с Bitcoin Whitepaper */
+
+/* Увеличим максимальную ширину контента, как в PDF */
+body {
+    max-width: 800px;      /* Стандарт LaTeX.css 800px, можно оставить */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Уберём лишние отступы сверху, как в оригинале */
+header {
+    margin-top: 2rem;
+}
+
+/* Стиль заголовков: полужирный, но не слишком крупный */
+h1, h2, h3, h4 {
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+/* Цитаты — курсив с отступом */
+blockquote {
+    font-style: italic;
+    border-left: 4px solid #ccc;
+    margin-left: 0;
+    padding-left: 1.5rem;
+    color: #3c3c3c;
+}
+
+/* Код и pre — как в тех. документации */
+pre, code {
+    background-color: #f8f8f8;
+    border-radius: 3px;
+}
+
+/* Ссылки — без подчёркивания, но с цветом */
+a {
+    text-decoration: none;
+    color: #0645ad;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Подвал */
+footer {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center;
+}
+
+footer hr {
+    margin-bottom: 1rem;
+}

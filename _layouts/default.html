@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <main>
+      <article class="post-content">
+        {{ content }}
+      </article>
+    </main>
+    <!-- Подвал не делаем отдельным файлом, просто добавим его сюда -->
+    <footer>
+      <hr>
+      <p>© {{ site.time | date: '%Y' }} {{ site.author }}. 
+         Стиль вдохновлён <a href="https://bitcoin.org/bitcoin.pdf">Bitcoin Whitepaper</a>.
+      </p>
+    </footer>
+  </body>
+</html>
