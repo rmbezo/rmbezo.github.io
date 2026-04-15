@@ -3,16 +3,14 @@
   {% include head.html %}
   <body>
     {% include header.html %}
-    <main>
+    <main class="page-content">
       <article class="post-content">
         {{ content }}
       </article>
     </main>
-    <!-- Подвал не делаем отдельным файлом, просто добавим его сюда -->
-    <footer>
-      <hr>
-      <p>© {{ site.time | date: '%Y' }} {{ site.author }}. 
-      </p>
+
+    <footer class="site-footer">
+      <p>© {{ site.time | date: '%Y' }} {{ site.author }}</p>
     </footer>
   </body>
 </html>

@@ -1,64 +1,92 @@
-/* Тонкая настройка для максимального сходства с Bitcoin Whitepaper */
-
-/* Увеличим максимальную ширину контента, как в PDF */
+/* Базовая ширина страницы */
 body {
-    max-width: 800px;      /* Стандарт LaTeX.css 800px, можно оставить */
-    margin: 0 auto;
-    padding: 0 20px;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 4rem;
 }
 
-/* Уберём лишние отступы сверху, как в оригинале */
-header {
-    margin-top: 2rem;
+/* Убираем визуальный шум */
+hr {
+  display: none;
 }
 
-/* Стиль заголовков: полужирный, но не слишком крупный */
-h1, h2, h3, h4 {
-    font-weight: 500;
-    margin-top: 2rem;
+/* Шапка */
+.site-header {
+  margin-bottom: 2.5rem;
 }
 
-h1 {
-    font-size: 2rem;
+.site-title {
+  margin-bottom: 0.35rem;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
-h2 {
-    font-size: 1.5rem;
+.site-title a {
+  color: inherit;
+  text-decoration: none;
 }
 
-/* Цитаты — курсив с отступом */
-blockquote {
-    font-style: italic;
-    border-left: 4px solid #ccc;
-    margin-left: 0;
-    padding-left: 1.5rem;
-    color: #3c3c3c;
+.site-title a:hover {
+  text-decoration: underline;
 }
 
-/* Код и pre — как в тех. документации */
-pre, code {
-    background-color: #f8f8f8;
-    border-radius: 3px;
+.site-description {
+  margin-top: 0;
+  color: #444;
+  font-size: 1rem;
 }
 
-/* Ссылки — без подчёркивания, но с цветом */
-a {
-    text-decoration: none;
-    color: #0645ad;
+/* Контент */
+.page-content {
+  margin-bottom: 3rem;
 }
 
-a:hover {
-    text-decoration: underline;
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+  margin-top: 2rem;
+}
+
+/* Список постов */
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+}
+
+.post-item {
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+.post-date {
+  display: inline-block;
+  min-width: 8.5rem;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.post-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.post-link:hover {
+  text-decoration: underline;
 }
 
 /* Подвал */
-footer {
-    margin-top: 3rem;
-    font-size: 0.9rem;
-    color: #555;
-    text-align: center;
+.site-footer {
+  margin-top: 3rem;
+  color: #666;
+  font-size: 0.95rem;
 }
 
-footer hr {
-    margin-bottom: 1rem;
+/* Немного сушим latex.css декоративность */
+blockquote {
+  margin-left: 1.25rem;
+}
+
+ul li::marker {
+  color: #666;
 }

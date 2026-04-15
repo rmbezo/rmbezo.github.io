@@ -1,5 +1,9 @@
-<header>
-  <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-  <p class="author">{{ site.author }}</p>
-  <hr>
+<header class="site-header">
+  <h1 class="site-title">
+    <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  </h1>
+
+  {% if site.description %}
+    <p class="site-description">{{ site.description }}</p>
+  {% endif %}
 </header>
