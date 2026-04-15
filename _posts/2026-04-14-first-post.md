@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Hello, World!"
-date: 2026-04-15 21:45:00 +0300
+date: 2026-04-14 21:45:00 +0300
 ---
 
 Hello world
