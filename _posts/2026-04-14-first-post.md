@@ -1,27 +1,18 @@
 ---
 layout: default
-title: "Привет, мир"
-date: 2026-04-14 14:00:00 +0300
+title: "Hello, World!"
+date: 2026-04-15 21:45:00 +0300
 ---
 
-Это моя первая запись в блоге, стилизованная под легендарный документ Сатоши Накамото. 
-Весь текст автоматически выглядит как научная статья благодаря библиотеке [LaTeX.css](https://latex.vercel.app/).
+Hello world
 
-## Почему именно такой стиль?
+## Main
 
-Оригинальный whitepaper Биткойна написан с использованием LaTeX — системы вёрстки, 
-предназначенной для создания технической и научной документации. Его сдержанный, 
-чёткий и информативный дизайн идеально подходит для серьёзных текстов.
+Hello world
 
 > *"A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution."*  
 > — Satoshi Nakamoto, Bitcoin Whitepaper
 
-## Что дальше?
+## Whats next?
 
-В следующих постах я расскажу о:
-- Технических аспектах Биткойна.
-- Экономике децентрализованных систем.
-- Программировании на Rust и криптографии.
-
-Оставайтесь на связи!
-
+Hello world

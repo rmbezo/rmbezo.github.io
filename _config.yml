@@ -1,11 +1,11 @@
-title: "Биткойн-блог"          # Измените на своё название
-author: "Ваше Имя"
+title: "fun"          # Измените на своё название
+author: "Roman"
 email: your@email.com
 description: >- 
-  Личный блог в стиле оригинального документа Bitcoin: A Peer-to-Peer Electronic Cash System.
+  Personal blog.
 baseurl: ""                     # Для корневого домена оставляем пустым
-url: "https://username.github.io" # Замените username на ваш ник GitHub
-github_username:  username      # Ваш ник на GitHub
+url: "https://rmbezo.github.io" # Замените username на ваш ник GitHub
+github_username:  rmbezo      # Ваш ник на GitHub
 
 # Настройки сборки
 markdown: kramdown
